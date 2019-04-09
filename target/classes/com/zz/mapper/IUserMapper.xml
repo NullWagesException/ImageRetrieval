@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace:命名空间，相当于包名
+    #{}：相当于占位符
+-->
+<mapper namespace="com.zz.mapper.IUserMapper">
+
+    <!--
+        id：语句唯一标识
+        parameterType：传参类型
+        resultType：返回类型
+    -->
+
+    <insert id="insertUser" parameterType="com.zz.pojo.User" keyProperty="id" useGeneratedKeys="true">
+
+        <!-- 使用MySQL内置函数获取ID -->
+        <!--<selectKey resultType="int" keyProperty="id" order="AFTER">-->
+        <!--select last_insert_id();-->
+        <!--</selectKey>-->
+
+        insert into `user`
+        (`phoneid`,`createtime`,`localtion`)
+        values (#{phoneid},#{createtime},#{localtion});
+    </insert>
+
+
+</mapper>

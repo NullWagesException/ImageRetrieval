@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <!-- 配置@Controller处理器，包扫描器 -->
+    <context:component-scan base-package="com.zz.controller" />
+
+    <!-- 对静态资源文件的访问 -->
+
+    <!--将容器工厂注册到annotation-driven中-->
+
+    <mvc:annotation-driven/>
+
+    <!--当请求静态资源时，交由Tomcat默认servlet处理-->
+    <mvc:default-servlet-handler/>
+
+    <!--自定义拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/image/uploadsignimg"/>
+            <bean class="com.zz.interceptor.TypeInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!--将自定义转换器交由spring管理-->
+    <!--<bean id="MyConverter" class="com.zf.converter.MyConverter"/>-->
+
+
+    <!--<bean id="FormattingConversion" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">-->
+        <!--<property name="converters">-->
+            <!--<set>-->
+                <!--<ref bean="MyConverter"/>-->
+            <!--</set>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!--文件上传配置-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="UTF-8"/>
+        <!--图片限制最大为4M-->
+        <property name="maxUploadSize" value="40960000"/>
+    </bean>
+
+
+</beans>

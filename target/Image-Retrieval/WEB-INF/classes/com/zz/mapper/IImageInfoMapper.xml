@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace:命名空间，相当于包名
+    #{}：相当于占位符
+-->
+<mapper namespace="com.zz.mapper.IImageInfoMapper">
+
+
+    <insert id="insertImageInfo" parameterType="com.zz.pojo.ImageInfo" keyProperty="id" useGeneratedKeys="true">
+
+        <!-- 使用MySQL内置函数获取ID -->
+        <!--<selectKey resultType="int" keyProperty="id" order="AFTER">-->
+        <!--select last_insert_id();-->
+        <!--</selectKey>-->
+
+        insert into `imageinfo`
+        (`imageid`,`keyword`,`description`,`score`,`root`,`uid`,`path`)
+        values (#{imageid},#{keyword},#{description},#{score},#{root},#{uid},#{path});
+    </insert>
+
+    <select id="getImageInfo" parameterType="long" resultType="com.zz.pojo.ImageInfo">
+        select * from
+            `imageinfo` where
+            imageid = #{findid}
+    </select>
+
+
+</mapper>
