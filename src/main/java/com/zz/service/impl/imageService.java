@@ -5,8 +5,6 @@ import com.zz.mapper.IUserMapper;
 import com.zz.pojo.ImageInfo;
 import com.zz.pojo.User;
 import com.zz.service.IimageService;
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
 import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
