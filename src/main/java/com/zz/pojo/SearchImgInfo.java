@@ -1,15 +1,10 @@
 package com.zz.pojo;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.List;
 
 /**
  * 检索数组中图片信息
  */
-@Getter
-@Setter
 public class SearchImgInfo {
 
     //返回唯一ID
@@ -20,6 +15,38 @@ public class SearchImgInfo {
     private Integer result_num;
     //每条数据信息
     private List<SearchInfo> result;
+
+    public String getLog_id() {
+        return log_id;
+    }
+
+    public void setLog_id(String log_id) {
+        this.log_id = log_id;
+    }
+
+    public boolean isHas_more() {
+        return has_more;
+    }
+
+    public void setHas_more(boolean has_more) {
+        this.has_more = has_more;
+    }
+
+    public Integer getResult_num() {
+        return result_num;
+    }
+
+    public void setResult_num(Integer result_num) {
+        this.result_num = result_num;
+    }
+
+    public List<SearchInfo> getResult() {
+        return result;
+    }
+
+    public void setResult(List<SearchInfo> result) {
+        this.result = result;
+    }
 
     @Override
     public String toString() {

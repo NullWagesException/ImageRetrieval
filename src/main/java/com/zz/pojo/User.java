@@ -1,12 +1,7 @@
 package com.zz.pojo;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.Date;
 
-@Setter
-@Getter
 public class User {
 
     private Integer id;
@@ -14,6 +9,38 @@ public class User {
     private String phoneid;
     private Date createtime;
     private String localtion;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getPhoneid() {
+        return phoneid;
+    }
+
+    public void setPhoneid(String phoneid) {
+        this.phoneid = phoneid;
+    }
+
+    public Date getCreatetime() {
+        return createtime;
+    }
+
+    public void setCreatetime(Date createtime) {
+        this.createtime = createtime;
+    }
+
+    public String getLocaltion() {
+        return localtion;
+    }
+
+    public void setLocaltion(String localtion) {
+        this.localtion = localtion;
+    }
 
     @Override
     public String toString() {

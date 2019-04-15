@@ -6,8 +6,6 @@ import com.zz.pojo.ImageInfo;
 import com.zz.pojo.SearchResultInfo;
 import com.zz.pojo.User;
 import com.zz.service.IimageService;
-import lombok.Getter;
-import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -28,10 +26,12 @@ import static com.zz.myutils.Voice.synthesis;
 @Controller
 public class imageController {
 
-    @Getter
-    @Setter
     @Autowired
     private IimageService imageService;
+
+    public void setImageService(IimageService imageService) {
+        this.imageService = imageService;
+    }
 
     //上传图片id
     private long imageid;

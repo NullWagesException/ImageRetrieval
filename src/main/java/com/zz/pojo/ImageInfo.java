@@ -1,10 +1,5 @@
 package com.zz.pojo;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class ImageInfo {
 
     //图片唯一ID
@@ -22,6 +17,61 @@ public class ImageInfo {
     //图片路径
     private String path;
 
+    public long getImageid() {
+        return imageid;
+    }
+
+    public void setImageid(long imageid) {
+        this.imageid = imageid;
+    }
+
+    public Double getScore() {
+        return score;
+    }
+
+    public void setScore(Double score) {
+        this.score = score;
+    }
+
+    public String getRoot() {
+        return root;
+    }
+
+    public void setRoot(String root) {
+        this.root = root;
+    }
+
+    public String getKeyword() {
+        return keyword;
+    }
+
+    public void setKeyword(String keyword) {
+        this.keyword = keyword;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
 
     @Override
     public String toString() {
