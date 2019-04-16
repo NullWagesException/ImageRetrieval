@@ -7,6 +7,7 @@ import com.zz.pojo.SearchResultInfo;
 import com.zz.pojo.User;
 import com.zz.service.IimageService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -43,6 +44,7 @@ public class imageController {
     private String localtion;
 
     //完成图像识别，存入云图库,获取语音解释和数据库功能
+    @Scope("prototype")
     @RequestMapping(value = "/uploadsignimg", method = RequestMethod.POST)
     public ModelAndView uploadOrderSignImage(MultipartFile file, HttpServletRequest request) throws IOException {
 
@@ -79,6 +81,7 @@ public class imageController {
 
     //从云图库完成相似图像检索，并获取对应信息，将本地图片读取
     @RequestMapping("/serchImage")
+    @Scope("prototype")
     public ModelAndView serchImage() throws IOException {
         ModelAndView mv = new ModelAndView("/result.jsp");
 
@@ -104,6 +107,7 @@ public class imageController {
 
     //获取位置信息
     @RequestMapping("getLocaltion/{attr}")
+    @Scope("prototype")
     public void getLocaltion(@PathVariable("attr") String attr){
 //        User user = userService.findUserById(id);
         localtion = attr;

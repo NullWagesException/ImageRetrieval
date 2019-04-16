@@ -7,15 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e3ba3bd-2f6e-4141-b943-7ea4d45e3ad7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zz/myutils/robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/classes/com/zz/controller/imageController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/classes/com/zz/controller/imageController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/classes/com/zz/controller/imageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/classes/com/zz/controller/imageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zz/controller/imageController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zz/controller/imageController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zz/controller/imageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zz/controller/imageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Image-Retrieval/result.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,28 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="183">
               <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/myutils/robot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#214#232#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -404,7 +383,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555377228926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555383058813" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -633,7 +612,7 @@
       <workItem from="1554806321034" duration="601000" />
       <workItem from="1555291951787" duration="676000" />
       <workItem from="1555292716457" duration="970000" />
-      <workItem from="1555327664341" duration="5856000" />
+      <workItem from="1555327664341" duration="6611000" />
     </task>
     <task id="LOCAL-00001" summary="删除了Lombok">
       <created>1555292559700</created>
@@ -649,11 +628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555292960491</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="解决了当列表图片小于5时会出现下标越界的情况">
+      <created>1555377355579</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555377355579</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145109000" />
+    <option name="totallyTimeSpent" value="145864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,7 +665,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3281471" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5552408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -713,7 +699,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除了Lombok" />
     <MESSAGE value="测试了一次" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试了一次" />
+    <MESSAGE value="解决了当列表图片小于5时会出现下标越界的情况" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决了当列表图片小于5时会出现下标越界的情况" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/mapper/IUserMapper.java">
@@ -1208,25 +1195,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/myutils/robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="243">
           <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
             <element signature="e#219#220#0" expanded="true" />
             <element signature="e#214#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

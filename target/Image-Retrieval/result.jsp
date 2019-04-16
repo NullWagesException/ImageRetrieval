@@ -63,7 +63,7 @@
                 <button type="button" id="uploadSubmit" class="btn btn-info" style="width: 60%;pointer-events:none;word-wrap: break-word !important;
     word-break: break-all !important;
     white-space: normal !important;margin-top: -1vw">描述信息：${desc}</button>
-                <span><input style="width: 4vw;height: 4vw;" type="image" onclick="voice()" src="\dataResourceImages\sound.png" /></span>
+                <span><input style="width: 3vw;height: 3vw;" type="image" onclick="voice()" src="\dataResourceImages\sound.png" /></span>
             <hr>
             <h4>相似图片</h4>
             <hr>
@@ -72,6 +72,7 @@
                     <div class="fileinput-new thumbnail" style="width: 200px;height: auto;max-height:150px;">
                         <img class="mimage" style="width: 100%;height: auto;max-height: 120px;" src="\dataResourceImages${searchPath_1}" alt="">
                         ${semblance_1}
+                        <p>\dataResourceImages${searchPath_1}</p>
                     </div>
                 </div>
             </div>
