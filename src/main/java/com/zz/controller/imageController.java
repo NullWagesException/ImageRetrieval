@@ -41,16 +41,6 @@ public class imageController {
 
     //用户位置信息
     private String localtion;
-//    //相似图片1
-//    private String searchPath_1;
-//    //相似图片2
-//    private String searchPath_2;
-//    //相似图片3
-//    private String searchPath_3;
-//    //相似图片4
-//    private String searchPath_4;
-//    //相似图片5
-//    private String searchPath_5;
 
     //完成图像识别，存入云图库,获取语音解释和数据库功能
     @RequestMapping(value = "/uploadsignimg", method = RequestMethod.POST)
@@ -162,12 +152,24 @@ public class imageController {
 
         DecimalFormat format = new DecimalFormat("0.00");
         //取出匹配度前五图片
-        for (int i = 1;i < 6;i++){
-            ImageInfo imageInfo = infoList.get(i);
-            //设置图片路径
-            mv.addObject("searchPath_" + i,imageInfo.getPath().split("KDR")[1]);
-            //写入相似度
-            mv.addObject("semblance_"+ i,format.format(imageInfo.getScore()*100) + "%");
+        //如果当前列表图片小于5：
+
+        if(infoList.size()<5){
+            for (int i = 1;i < infoList.size();i++){
+                ImageInfo imageInfo = infoList.get(i);
+                //设置图片路径
+                mv.addObject("searchPath_" + i,imageInfo.getPath().split("KDR")[1]);
+                //写入相似度
+                mv.addObject("semblance_"+ i,format.format(imageInfo.getScore()*100) + "%");
+            }
+        }else{
+            for (int i = 1;i < 6;i++){
+                ImageInfo imageInfo = infoList.get(i);
+                //设置图片路径
+                mv.addObject("searchPath_" + i,imageInfo.getPath().split("KDR")[1]);
+                //写入相似度
+                mv.addObject("semblance_"+ i,format.format(imageInfo.getScore()*100) + "%");
+            }
         }
 
     }

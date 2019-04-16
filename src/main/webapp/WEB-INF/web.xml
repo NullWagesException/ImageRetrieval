@@ -6,6 +6,14 @@
         id="WebApp_ID" version="2.5">
   <display-name>imageRetrieval</display-name>
 
+  <!--解决EL表达式无效-->
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <el-ignored>false</el-ignored>
+      <scripting-invalid>true</scripting-invalid>
+    </jsp-property-group>
+  </jsp-config>
 
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
