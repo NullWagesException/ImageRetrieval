@@ -66,13 +66,17 @@
                 <span><input style="width: 3vw;height: 3vw;" type="image" onclick="voice()" src="\dataResourceImages\sound.png" /></span>
             <hr>
             <h4>相似图片</h4>
+            <p>${searchPath_1}</p>
+            <p>${searchPath_2}</p>
+            <p>${searchPath_3}</p>
+            <p>${searchPath_4}</p>
+            <p>${searchPath_5}</p>
             <hr>
             <div class="form-group" id="uploadForm" enctype='multipart/form-data'>
                 <div class="fileinput fileinput-new" data-provides="fileinput"  id="exampleInputUpload">
                     <div class="fileinput-new thumbnail" style="width: 200px;height: auto;max-height:150px;">
                         <img class="mimage" style="width: 100%;height: auto;max-height: 120px;" src="\dataResourceImages${searchPath_1}" alt="">
                         ${semblance_1}
-                        <p>\dataResourceImages${searchPath_1}</p>
                     </div>
                 </div>
             </div>

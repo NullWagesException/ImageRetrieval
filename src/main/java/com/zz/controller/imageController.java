@@ -9,6 +9,7 @@ import com.zz.service.IimageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -100,8 +101,8 @@ public class imageController {
 
         Map<String, Double> searchmap = ImageSimilar.search(image.getPath());
 
-        addAttr(searchmap,image,mv);
-
+        System.out.println(searchmap.size());
+        addAttr(searchmap, image, mv);
         return mv;
     }
 
@@ -110,11 +111,14 @@ public class imageController {
     @Scope("prototype")
     public void getLocaltion(@PathVariable("attr") String attr){
 //        User user = userService.findUserById(id);
+        System.out.println();
         localtion = attr;
+        System.out.println(localtion);
+        System.out.println();
     }
 
     //将查询到的图片信息进行感知哈希算法匹配后装载
-    private void addAttr(Map<String, Double> searchmap,ImageInfo rootimage,ModelAndView mv){
+    private void addAttr(Map<String, Double> searchmap, ImageInfo rootimage, ModelAndView mv){
         List<ImageInfo> infoList = new ArrayList<>();
 
         for (Map.Entry<String, Double> entry : searchmap.entrySet()) {
@@ -157,22 +161,26 @@ public class imageController {
         DecimalFormat format = new DecimalFormat("0.00");
         //取出匹配度前五图片
         //如果当前列表图片小于5：
-
         if(infoList.size()<5){
-            for (int i = 1;i < infoList.size();i++){
+            for (int i = 0;i < infoList.size();i++){
                 ImageInfo imageInfo = infoList.get(i);
                 //设置图片路径
-                mv.addObject("searchPath_" + i,imageInfo.getPath().split("KDR")[1]);
+                mv.addObject("searchPath_" + (i+1),imageInfo.getPath().split("KDR")[1]);
+                mv.addObject("semblance_" + (i+1),format.format(imageInfo.getScore()*100) + "%");
                 //写入相似度
-                mv.addObject("semblance_"+ i,format.format(imageInfo.getScore()*100) + "%");
             }
         }else{
-            for (int i = 1;i < 6;i++){
+            for (int i = 0;i < 5;i++){
+                System.out.println(i);
                 ImageInfo imageInfo = infoList.get(i);
                 //设置图片路径
-                mv.addObject("searchPath_" + i,imageInfo.getPath().split("KDR")[1]);
+                System.out.println(imageInfo.getPath().split("KDR")[1]);
+                System.out.println(format.format(imageInfo.getScore()*100) + "%");
+                System.out.println();
+                System.out.println();
+                mv.addObject("searchPath_" + (i+1),imageInfo.getPath().split("KDR")[1]);
+                mv.addObject("semblance_" + (i+1),format.format(imageInfo.getScore()*100) + "%");
                 //写入相似度
-                mv.addObject("semblance_"+ i,format.format(imageInfo.getScore()*100) + "%");
             }
         }
 

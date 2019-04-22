@@ -8,8 +8,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4e3ba3bd-2f6e-4141-b943-7ea4d45e3ad7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Image-Retrieval/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/classes/com/zz/controller/imageController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/classes/com/zz/controller/imageController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/classes/com/zz/controller/imageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/classes/com/zz/controller/imageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/lib/druid-1.1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/lib/mybatis-spring-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Image-Retrieval/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Image-Retrieval/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zz/controller/imageController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zz/controller/imageController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zz/controller/imageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zz/controller/imageController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,14 +29,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
+            <state relative-caret-position="561">
+              <caret line="175" column="24" lean-forward="true" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="26" column="31" lean-forward="true" selection-end-line="69" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/result.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/localtion.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.IntelliJIdea2018.3/system/tomcat/Unnamed_ImageRetrieval/logs/localhost.2019-04-19.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4104">
+              <caret line="152" column="252" selection-start-line="152" selection-start-column="252" selection-end-line="152" selection-end-column="252" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1107">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1053">
+              <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/interceptor/TypeInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="20" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/mySoftware/apache-tomcat-8.5.39-windows-x64/apache-tomcat-8.5.39/conf/server.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4023">
+              <caret line="149" column="90" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -72,6 +164,7 @@
       <find>host</find>
       <find>URIEncoding</find>
       <find>port</find>
+      <find>dru</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -115,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zz/myutils/Perceptualhash.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/myutils/ImageSimilarity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/myutils/ImageSimilar.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/myutils/ImageCompression.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/myutils/getAddrIp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/myutils/ImageParsing.java" />
@@ -124,9 +216,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/newresult.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-controller.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/mapper/IUserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/localtion.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/myutils/ImageSave.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/pojo/BaikeInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/pojo/ImageInfo.java" />
@@ -140,10 +230,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="D:/mySoftware/apache-tomcat-8.5.39-windows-x64/apache-tomcat-8.5.39/conf/server.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zz/myutils/robot.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/localtion.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/result.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zz/myutils/robot.java" />
       </list>
     </option>
   </component>
@@ -194,18 +287,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Image-Retrieval Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="deploy" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Image-Retrieval Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Image-Retrieval Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="resources" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
@@ -218,9 +299,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -314,6 +395,15 @@
               <item name="ImageRetrieval" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zz" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageRetrieval" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageRetrieval" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,48 +419,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageRetrieval" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageRetrieval" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageRetrieval" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageRetrieval" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageRetrieval" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageRetrieval" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageRetrieval" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageRetrieval" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageRetrieval" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageRetrieval" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageRetrieval" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageRetrieval" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageRetrieval" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageRetrieval" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Image-Retrieval" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,28 +443,28 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555383058813" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555667203234" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39310345" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zz.pojo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\62400\IdeaProjects\ImageRetrieval\src\main\webapp\test" />
       <recent name="D:\JavaWork\ImageRetrieval\src\main\webapp" />
       <recent name="D:\JavaWork\ImageRetrieval\src\main\webapp\image" />
       <recent name="D:\JavaWork\ImageRetrieval\src\main\webapp\images" />
       <recent name="D:\JavaWork\ImageRetrieval\src\main\webapp\KDR" />
-      <recent name="D:\javawork\ImageRetrieval\src\main\java\com\zz\mapper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zz.pojo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,75 +479,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.robot">
-    <configuration name="ImageCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zz.myutils.ImageCompression" />
-      <module name="Image-Retrieval" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zz.myutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImageSimilar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.zz.myutils.ImageSimilar" />
-      <module name="Image-Retrieval" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zz.myutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImageSimilarity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zz.myutils.ImageSimilarity" />
-      <module name="Image-Retrieval" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zz.myutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Voice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zz.myutils.Voice" />
-      <module name="Image-Retrieval" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zz.myutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zz.myutils.robot" />
-      <module name="ImageRetrieval" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zz.myutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.39" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/ImageRetrieval_war/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -500,6 +494,8 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_ImageRetrieval" />
         <option name="DEPLOY_TOMCAT_APPS" value="true" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -562,23 +558,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.ImageSimilar" />
-      <item itemvalue="Application.ImageSimilarity" />
-      <item itemvalue="Application.ImageCompression" />
-      <item itemvalue="Application.Voice" />
-      <item itemvalue="Tomcat Server.Tomcat8.5" />
-      <item itemvalue="Application.robot" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.robot" />
-        <item itemvalue="Application.Voice" />
-        <item itemvalue="Application.ImageCompression" />
-        <item itemvalue="Application.ImageSimilar" />
-        <item itemvalue="Application.ImageSimilarity" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -612,7 +591,10 @@
       <workItem from="1554806321034" duration="601000" />
       <workItem from="1555291951787" duration="676000" />
       <workItem from="1555292716457" duration="970000" />
-      <workItem from="1555327664341" duration="6611000" />
+      <workItem from="1555327664341" duration="13227000" />
+      <workItem from="1555586817407" duration="7091000" />
+      <workItem from="1555675001814" duration="1609000" />
+      <workItem from="1555728522403" duration="3951000" />
     </task>
     <task id="LOCAL-00001" summary="删除了Lombok">
       <created>1555292559700</created>
@@ -635,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555377355579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="controller设置为多例模式">
+      <created>1555383131669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555383131669</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145864000" />
+    <option name="totallyTimeSpent" value="165131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,9 +641,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23793566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28217158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -665,7 +653,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3281471" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.5042493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5552408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -700,17 +688,10 @@
     <MESSAGE value="删除了Lombok" />
     <MESSAGE value="测试了一次" />
     <MESSAGE value="解决了当列表图片小于5时会出现下标越界的情况" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决了当列表图片小于5时会出现下标越界的情况" />
+    <MESSAGE value="controller设置为多例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="controller设置为多例模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/mapper/IUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/myutils/BaiduUtils.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/myutils/GetAddrIp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -826,13 +807,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/newresult.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/image/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6588">
-          <caret line="244" selection-start-line="244" selection-end-line="244" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/mapper/IUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1042,37 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/localtion.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="108" column="42" lean-forward="true" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/interceptor/TypeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/myutils/ImageSave.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -1089,31 +1032,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/noimage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://D:/mySoftware/apache-tomcat-8.5.39-windows-x64/apache-tomcat-8.5.39/conf/server.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1195,26 +1117,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/myutils/robot.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/myutils/robot.java" />
+    <entry file="file://$PROJECT_DIR$/target/Image-Retrieval/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="-1134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/localtion.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2018.3/system/tomcat/Unnamed_ImageRetrieval/logs/localhost.2019-04-19.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="152" column="252" selection-start-line="152" selection-start-column="252" selection-end-line="152" selection-end-column="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/mySoftware/apache-tomcat-8.5.39-windows-x64/apache-tomcat-8.5.39/conf/server.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4023">
+          <caret line="149" column="90" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="26" column="31" lean-forward="true" selection-end-line="69" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#214#232#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/controller/imageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
+        <state relative-caret-position="561">
+          <caret line="175" column="24" lean-forward="true" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zz/interceptor/TypeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1224,7 +1205,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Image-Retrieval:war</last-edited>
+          <last-edited>ImageRetrieval:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1272,7 +1253,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Image-Retrieval</last-edited>
+          <last-edited>ImageRetrieval</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1297,11 +1278,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.alibaba:druid:1.1.15</last-edited>
+          <last-edited>Maven: com.alibaba:druid:RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39310345" />
               </list>
             </option>
           </splitter-proportions>
